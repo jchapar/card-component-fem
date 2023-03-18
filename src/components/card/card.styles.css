@@ -1,0 +1,83 @@
+.card {
+  background: white;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card-content {
+  padding: 3rem 2rem;
+}
+
+.card-content h3 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 2.4rem;
+  color: #48556a;
+}
+
+.card-content p {
+  font-size: 1.3rem;
+  line-height: 2rem;
+  color: #6e8098;
+  letter-spacing: 0.75px;
+}
+
+.user-content {
+  background: white;
+  border-bottom-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  overflow: hidden;
+  padding-inline: 2rem;
+  padding-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.user-details {
+  display: flex;
+  align-items: center;
+}
+
+.user-details img {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.user-name {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #48556a;
+  letter-spacing: 0.25px;
+  margin: 0;
+}
+
+.user-date {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #9daec2;
+  letter-spacing: 0.25px;
+  margin: 0;
+}
+
+.share-wrapper {
+  background: #ecf2f8;
+  height: 3.2rem;
+  width: 3.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.share-icon {
+  color: #6e8098;
+  font-size: 1.5rem;
+}
