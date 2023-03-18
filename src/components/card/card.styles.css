@@ -1,8 +1,8 @@
 .card {
   background: white;
-  border-top-right-radius: 1rem;
-  border-top-left-radius: 1rem;
+  border-radius: 1rem;
   overflow: hidden;
+  max-width: 33rem;
 }
 
 .card img {
@@ -32,8 +32,6 @@
   border-bottom-right-radius: 1rem;
   border-bottom-left-radius: 1rem;
   overflow: hidden;
-  padding-inline: 2rem;
-  padding-bottom: 2rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -65,6 +63,7 @@
   color: #9daec2;
   letter-spacing: 0.25px;
   margin: 0;
+  opacity: 0.7;
 }
 
 .share-wrapper {
@@ -80,4 +79,32 @@
 .share-icon {
   color: #6e8098;
   font-size: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .card {
+    max-width: 730px;
+    height: 280px;
+    display: flex;
+  }
+
+  .card img {
+    height: 280px;
+    width: 285px;
+  }
+
+  .card-content {
+    padding: 1rem 3rem;
+  }
+
+  .card-content h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.8rem;
+  }
+
+  .user-details img {
+    width: 4rem;
+    height: 4rem;
+  }
 }

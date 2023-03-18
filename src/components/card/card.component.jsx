@@ -19,18 +19,18 @@ class Card extends Component {
               Ever been in a room and felt like something was missing? Perhaps it felt slightly bare
               and uninviting. I've got some simple tips to help you make any room feel complete.
             </p>
-          </div>
-        </div>
-        <div className='user-content'>
-          <div className='user-details'>
-            <img src={profile} alt='User Avatar' />
-            <div className='user-info'>
-              <p className='user-name'>Michelle Appleton</p>
-              <p className='user-date'>28 June 2020</p>
+            <div className='user-content'>
+              <div className='user-details'>
+                <img src={profile} alt='User Avatar' />
+                <div className='user-info'>
+                  <p className='user-name'>Michelle Appleton</p>
+                  <p className='user-date'>28 June 2020</p>
+                </div>
+              </div>
+              <div className='share-wrapper'>
+                <FaShare className='share-icon' />
+              </div>
             </div>
-          </div>
-          <div className='share-wrapper'>
-            <FaShare className='share-icon' />
           </div>
         </div>
       </div>
